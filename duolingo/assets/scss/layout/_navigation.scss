@@ -1,0 +1,48 @@
+nav{
+   position: fixed;
+  z-index: 1;
+width: 100%;
+.nav_bar {
+  background-color: #235390;
+  max-width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+  .logo {
+    width: 10%;
+  }
+  .bar {
+    ul {
+      gap: 30px;
+      display: flex;
+      li {
+        color: white;
+      }
+      .greennavbtn {
+        display: none;
+        max-width: 30%;
+        background-color: rgb(73, 211, 73);
+        border: rgb(73, 211, 73);
+        border-radius: 6px;
+        padding: 15px 32px;
+        li {
+          color: white;
+        }
+      }
+      .whitebtn {
+        display: none;
+        max-width: 30%;
+        background-color: whitesmoke;
+        border: white;
+        border-radius: 6px;
+        padding: 15px 32px;
+        li {
+          color: rgb(5, 5, 5);
+        }
+      }
+    }
+  }
+}
+}

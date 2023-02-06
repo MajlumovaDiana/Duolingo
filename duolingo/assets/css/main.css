@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  top: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+nav .nav_bar {
+  background-color: #235390;
+  max-width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav .nav_bar .logo {
+  width: 10%;
+}
+nav .nav_bar .bar ul {
+  gap: 30px;
+  display: flex;
+}
+nav .nav_bar .bar ul li {
+  color: white;
+}
+nav .nav_bar .bar ul .greennavbtn {
+  display: none;
+  max-width: 30%;
+  background-color: rgb(73, 211, 73);
+  border: rgb(73, 211, 73);
+  border-radius: 6px;
+  padding: 15px 32px;
+}
+nav .nav_bar .bar ul .greennavbtn li {
+  color: white;
+}
+nav .nav_bar .bar ul .whitebtn {
+  display: none;
+  max-width: 30%;
+  background-color: whitesmoke;
+  border: white;
+  border-radius: 6px;
+  padding: 15px 32px;
+}
+nav .nav_bar .bar ul .whitebtn li {
+  color: rgb(5, 5, 5);
+}
+
+.mainbluepage {
+  background-color: #235390;
+  background-image: url("https://d35aaqx5ub95lt.cloudfront.net/images/4986531ca822d48e57b4a18f40ff5172.svg");
+  max-width: 100%;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+}
+.mainbluepage .qlobusbtns {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.mainbluepage .qlobusbtns .rightpart h3 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+.mainbluepage .qlobusbtns .rightpart .btns {
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  display: flex;
+  gap: 10px;
+}
+.mainbluepage .qlobusbtns .rightpart .btns .greenbtn {
+  background-color: rgb(73, 211, 73);
+  border: rgb(73, 211, 73);
+  border-radius: 6px;
+  padding: 15px 32px;
+  width: 50%;
+  cursor: pointer;
+}
+.mainbluepage .qlobusbtns .rightpart .btns .greenbtn:hover {
+  background-color: rgb(134, 209, 22);
+}
+.mainbluepage .qlobusbtns .rightpart .btns .transparentbtn {
+  background-color: transparent;
+  border-radius: 6px;
+  padding: 15px 32px;
+  width: 50%;
+  cursor: pointer;
+}
+.mainbluepage .qlobusbtns .rightpart .btns .transparentbtn:hover {
+  background-color: #1e487e;
+}
+.mainbluepage .qlobusbtns .rightpart .btns span {
+  color: white;
+}
+
+.greenbridcomp {
+  margin: 30px auto;
+  max-width: 70%;
+}
+.greenbridcomp .greenbrid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.greenbridcomp .greenbrid .brid img {
+  width: 100%;
+}
+.greenbridcomp .greenbrid .bridtext h1 {
+  font-weight: bold;
+}
+.greenbridcomp .greenbrid .bridtext p {
+  color: rgb(137, 124, 106);
+}
+.greenbridcomp .greenbrid .bridtext p a {
+  color: #4d3a2d;
+  font-weight: bold;
+}
+.greenbridcomp .lovelearning h1 {
+  text-align: center;
+  margin: 20px auto;
+}
+.greenbridcomp .compandtext {
+  display: flex;
+  justify-content: space-between;
+}
+.greenbridcomp .compandtext .compandtextleftpart {
+  max-width: 330px;
+}
+.greenbridcomp .compandtext .compandtextleftpart p {
+  color: rgb(137, 124, 106);
+}
+.greenbridcomp .compandtext .compandtextleftpart .fire {
+  display: flex;
+}
+.greenbridcomp .compandtext .compandtextleftpart .fire p a {
+  color: blue;
+}
+.greenbridcomp .compandtext .compandtextleftpart .personalized {
+  display: flex;
+}
+.greenbridcomp .computer {
+  display: flex;
+  justify-content: center;
+}
+.greenbridcomp .computer img {
+  max-width: 70%;
+}
+.greenbridcomp .compandtextrightpart {
+  max-width: 300px;
+}
+.greenbridcomp .compandtextrightpart p {
+  color: rgb(137, 124, 106);
+}
+.greenbridcomp .compandtextrightpart .crown {
+  display: flex;
+}
+.greenbridcomp .compandtextrightpart .funwoman {
+  display: flex;
+}
+
+.superdDuolingo {
+  margin: 30px auto;
+  max-width: 70%;
+}
+.superdDuolingo .bluefishandtext {
+  display: flex;
+  gap: 90px;
+}
+.superdDuolingo .bluefishandtext .bluefishimg img {
+  width: 150px;
+}
+.superdDuolingo .bluefishandtext .bluefishtext p {
+  color: rgb(137, 124, 106);
+}
+.superdDuolingo .bluefishandtext .bluefishtext h6 {
+  color: #1cb0f6;
+  font-size: 15px;
+}
+
+.learnanytime {
+  margin: 30px auto;
+  max-width: 70%;
+  display: flex;
+  align-items: center;
+}
+.learnanytime .learnanytimetext {
+  display: flex;
+  flex-direction: column;
+}
+.learnanytime .learnanytimetext .learnanytimeText h2 {
+  font-size: 22px;
+}
+.learnanytime .learnanytimetext .learnanytimeText p {
+  color: rgb(137, 124, 106);
+}
+.learnanytime .learnanytimetext .btns {
+  display: flex;
+  gap: 10px;
+}
+.learnanytime .learnanytimetext .btns .btnicon {
+  font-size: 26px;
+}
+.learnanytime .learnanytimetext .btns .appstore {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  height: 70px;
+  border: 2px solid gray;
+  border-radius: 20%;
+}
+.learnanytime .learnanytimetext .btns .appstore h6 {
+  font-size: 13px;
+  color: rgb(137, 124, 106);
+}
+.learnanytime .learnanytimetext .btns .appstore h5 {
+  font-size: 20px;
+}
+.learnanytime .learnanytimetext .btns .playstore {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  height: 70px;
+  border: 2px solid gray;
+  border-radius: 20%;
+}
+.learnanytime .learnanytimetext .btns .playstore h6 {
+  font-size: 13px;
+  color: rgb(137, 124, 106);
+}
+.learnanytime .learnanytimetext .btns .playstore h5 {
+  font-size: 20px;
+}/*# sourceMappingURL=main.css.map */
